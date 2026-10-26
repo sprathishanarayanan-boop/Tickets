@@ -18,7 +18,7 @@ Build a web application that allows event organizers to host events and sell tie
 - **Payment simulation:** a mock gateway endpoint approves or rejects payments asynchronously.
 - **Analytics dashboard:** organizers see real-time revenue charts and ticket conversion rates.
 
-### Technical requirements
+ Technical requirements
 
 - **Database transactions:** use transactions or atomic operations (PostgreSQL `SELECT FOR UPDATE` or Redis locks) to prevent race conditions during checkout.
 - **Caching layer:** cache active event details in Redis to handle heavy read loads.
